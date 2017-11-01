@@ -1,0 +1,10 @@
+TAREA LABORATORIO 3
+
+PEDRO LUNA LAGOS
+201130029-7
+
+Están disponibles los archivos index.html, polinomio.html y triangulo.html.
+
+index.html viene siendo el principal y desde donde se accede a ambas herramientas.
+polinomio.html tiene la herramienta en donde se resuelven ecuaciones de segundo grado.
+triangulo.html tiene la herramienta en donde se calculan hipotenusas de un triangulo rectángulo.

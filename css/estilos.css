@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+body {
+    background: url(../images/wps.jpg) #fff; /* carga imagen de fondo, en caso de no encontrarla carga un fondo negro */
+    color: #fff; /* color de texto blanco */
+    font-size: 16px;
+    margin: 10px;
+    background-size: 100vw 100vh; /* Escala la imagen para que ocupe siempre el 100% de alto y 100% de ancho */
+    background-attachment: fixed; /* Para fijar la imagen y que no se mueva con el scroll */
+}
+
+.wrap {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.9);
+}
+
+.widget {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin: 32px;
+    margin: auto;
+}
+
+/*.widget p{
+	width: 100%;	
+	margin: 15px;
+}*/
+h2 {
+    width: 90%;
+    margin: 15px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+h3 {
+    width: 90%;
+    margin: 15px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+p {
+    width: 100%; /* ancho boton 100% (no cuenta el padding) */
+    margin-bottom: 0px; /* padding de 20 px abajo */
+    padding: 7px;
+    padding-left: 0px; /* agranda en 7 px */
+    box-sizing: border-box; /* ajusta para que el padding no se exceda */
+    font-size: 17px; /* tamaño fuente */
+    border: none;
+    text-align: left;
+}
+
+.resultados p {
+    text-align: center;
+}
+
+input {
+    width: 100%; /* ancho boton 100% (no cuenta el padding) */
+    margin-bottom: 15px; /* padding de 20 px abajo */
+    padding: 7px; /* agranda en 7 px */
+    box-sizing: border-box; /* ajusta para que el padding no se exceda */
+    font-size: 17px; /* tamaño fuente */
+    border: none; /* elimina el borde borde */
+}
+
+.img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.consulta {
+    text-align: center;
+    /*font-size: 1.5em;*/
+    margin-bottom: 5px;
+    background: rgba(0,0,0,0.5 );
+    padding: 20px;
+    width: 100%
+}
+
+
+.resultados {
+    text-align: center;
+    /*font-size: 2.0em;*/
+    margin-bottom: 5px;
+    background: rgba(0,0,0,0.5 );
+    padding: 20px;
+    width: 100%
+}
+
+#boton {
+    background: #0a5443; /* color boton */
+    color: #fff; /* color letra */
+    padding: 20px; /* agrega 20 px */
+}
+
+    #boton: hover {
+        cursor: pointer; /* cambia el cursor al pasar por encima del boton */
+    }

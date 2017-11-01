@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <title>Tarea2HerramientaMat</title>
+    </head>
+<body>
+    <div class="wrap">
+        <div class="widget">
+          <div class="consulta">
+            <h2> RESOLVIENDO POLINOMIOS DE SEGUNDO GRADO</h2>
+            <img src="images/ec_cuad.png" width="210" height="44" class="img">
+          </div>
+            <div class="consulta">
+                <p>INGRESE CONSTANTE a:</p>
+                <input type="number" id="cons_a" class="cons_a">
+                <p>INGRESE CONSTANTE b:</p>
+                <input type="number" id="cons_b" class="cons_b">
+                <p>INGRESE CONSTANTE c:</p>
+                <input type="number" id="cons_c" class="cons_c">
+                <input type="button" id="boton" class="boton" value="RESOLVER ECUACIÓN">
+            </div>
+            <div class="resultados">
+                <h3> RESULTADOS:</h3>
+                <p id="discri" class="discri"></p>
+                <p id="val_x1" class="val_x1"></p>
+                <p id="val_x2" class="val_x2"></p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/polinomio.js"></script>
+</body>
+</html>
